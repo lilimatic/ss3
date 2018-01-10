@@ -44,7 +44,7 @@ x = c(seq(0, 1, 0.2))
 matplot(X, type = "l",  
         xlab = "vreme", ylab = "X(t)",
         ylim = c(min(X), max(X)),xaxt="n",
-        main = "Simulacija Itovog procesa", 
+        main = "Simulacija Itovog procesa X(t)", 
         col = "red", xlim = c(0,n))
 
 axis(side=1, at = t1, labels = x)
